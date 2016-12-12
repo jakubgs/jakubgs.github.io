@@ -8,8 +8,11 @@ body {
 
 body {
     padding-top: 3%;
-    padding-left: 10%;
-    padding-right: 10%;
+}
+
+.container {
+    width: 80%;
+    height: 100%;
 }
 
 a {
@@ -37,9 +40,9 @@ hr {
 }
 
 #photo {
-    display: block-inline;
     float: left;
-    height: 13%;
+    height: 10em;
+
     margin-right: 12px;
     margin-bottom: 12px;
 }
@@ -73,4 +76,9 @@ hr {
 
 .contents {
     padding: 3%;
+}
+
+.footer {
+    display: relative;
+    float: bottom;
 }
