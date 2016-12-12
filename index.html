@@ -3,22 +3,31 @@
         <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
         <meta content="utf-8" http-equiv="encoding">
         <link rel="stylesheet" href="third-party/bootstrap/css/bootstrap.css"></script>
+        <script src="third-party/jquery-2.2.4.js"></script>
         <script src="third-party/bootstrap/js/bootstrap.js"></script>
         <link rel="stylesheet" href="style.css">
+        <script src="scripts.js"></script>
     </head>
 <body>
     <div class="container">
         <div class="navbar">
+            <div id="lang-links">
+                <a href="javascript:void(0)" id="lang-pl" data-lang="pl">PL</a>
+                |
+                <a href="javascript:void(0)" id="lang-en" data-lang="en">EN</a>
+            </div>
             <h1>Jakub Grzegorz Sokołowski</h1>
-            <h4>System Administrator and Developer</h4>
+            <h4 lang="en">System Administrator and Developer</h4>
+            <h4 lang="pl">Administrator Systemów i Deweloper</h4>
         </div>
         <div class="row" id="columns">
             <div class="col-md-4" id="about-me">
                 <div class="column">
                 <div class="contents">
                     <img id ="photo" src="images/me.jpg"></img>
-                    <h3>About Me</h3>
-                    <p>
+                    <h3 lang="en">About Me</h3>
+                    <h3 lang="pl">O Mnie</h3>
+                    <p lang="en">
                         I'm an IT professional with a drive for automation and itch for efficiency at large scale.
                         <br>
                         I posses two extremely useful characteristics: <b>laziness</b> and <b>persistence</b>.
@@ -26,40 +35,73 @@
                         <br>
                         My main specialization has always been administration and operations but I've also never avoided development work of any kind.
                     </p>
+                    <p lang="pl">
+                        Jestem profesjonalista IT z zapałem do automatyzacji i dryg do wydajności przy dużej skali.
+                        <br>
+                        Posiadam dwie niezwykle użyteczne cechy. <b>lenistwo</b> i <b>zawziętość</b>.
+                        Jakakolwiek manualna i repetytywna praca napełnia mnie wstrętem i zawsze dążę do zautomatyzowania jej.
+                        <br>
+                        Moja główną specjalizacją zawsze była administracja i operowanie systemami  ale nigdy nie unikałem pracy deweloperskiej.
+                    </p>
                     <hr>
-                    <h3>Interests</h3>
+                    <h3 lang="en">Interests</h3>
+                    <h3 lang="pl">Zainteresowania</h3>
+                    <p lang="en">
                         I enjoy cooking, drawing and play the guitar.
                         <br>
                         My intellectual interests primarily focus around space exploration, transhumanism, geopolitics, psychology, anthropology, and philosophy.
                         <br>
                         I enjoy music greatly in pretty much all forms except dubstep. Recently I've been enamoured with Future Funk and Cyberpunk.
+                    </p>
+                    <p lang="pl">
+                        Uwielbiam gotować, rysować i grać na gitarze.
+                        <br>
+                        Moje zainteresowania intelektualne głównie skupiają się na eksploracji kosmosu, transhumanizmie, geopolityce, psychologii, antropologii i filozofii.
+                        <br>
+                        Wielką przyjemność daje mi muzyka w prawie każdej formie z wyjątkiem dubstepu. Ostatnio jestem zafascynowany gatunkami Future Funk oraz Cyberpunk.
+                    </p>
                 </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="column">
                 <div class="contents" id="experience">
-                    <h3>Experience</h3>
-                    <p>
+                    <h3 lang="en">Experience</h3>
+                    <h3 lang="pl">Doświadczenie</h3>
+                    <p lang="en">
                         Throughout my life and carrier in IT I've done all kinds of work. Starting out in basic helpdesk job and quickly advancing to server room administration and then full blown system administration.
                         <br>
                         I've spent time working with all kinds of platforms, including open ones like GNU/Linux and BSD based as well as OSes from Microsoft, Oracle, Sun, and IBM.
                         <br>
-                        I've developed <a href="https://en.wikipedia.org/wiki/Extract,_transform,_load">ETL</a> solutoins, website infrastructures, 3D rendering automations, and <a href="https://en.wikipedia.org/wiki/Create,_read,_update_and_delete">CRUD</a> systems.
+                        I've developed <a href="https://en.wikipedia.org/wiki/Extract,_transform,_load">ETL</a> solutions, website infrastructures, 3D rendering automations, and <a href="https://en.wikipedia.org/wiki/Create,_read,_update_and_delete">CRUD</a> systems.
                         <br>
                         Here are some of the places I've worked at:
-                        <ul>
-                            <li><b>2015-Now</b> - <a href="https://aws.amazon.com/">Amazon Web Services</a></li>
-                            <li><b>2014-2015</b> - <a href="https://codility.com/">Codility</a></li>
-                            <li><b>2013-2014</b> - <a href="http://raiffeisenpolbank.com/">Raiffeisen Polbank</a></li>
-                            <li><b>2013-2014</b> - <a href="http://www.ascen.pl/">Ascen</a></li>
-                            <li><b>2011-2013</b> - <a href="https://www.vistra.com/acquisitions/Trinity">Trinity Corporate Services</a></li>
-                        </ul>
                     </p>
+                    <p lang="pl">
+                        Przez całe moje życie i karierę w IT miałem różne odpowiedzialności. Zaczynałem w zwykłym wsparciu IT i szybko awansowałem do administratora serwerowni a następnie pełnoprawnego administratora systemów.
+                        <br>
+                        Miałem okazje pracować z wieloma różnymi platformami. Z otwartymi systemami jak GNU/Linux czy opartych na BSD oraz komercyjnych systemach stworzonych przez Microsoft, Oracle, Sun czy IBM.
+                        <br>
+                        Tworzyłem rozwiązania<a href="https://en.wikipedia.org/wiki/Extract,_transform,_load">ETL</a>, infrastruktury dla stron, automatyzacje do renderowania 3D, oraz systemy <a href="https://en.wikipedia.org/wiki/Create,_read,_update_and_delete">CRUD</a>.
+                        <br>
+                        Oto niektóre z miejsc w których pracowałem:
+                    </p>
+                    <ul>
+                        <li><b>2015-Now</b> - <a href="https://aws.amazon.com/">Amazon Web Services</a></li>
+                        <li><b>2014-2015</b> - <a href="https://codility.com/">Codility</a></li>
+                        <li><b>2013-2014</b> - <a href="http://raiffeisenpolbank.com/">Raiffeisen Polbank</a></li>
+                        <li><b>2013-2014</b> - <a href="http://www.ascen.pl/">Ascen</a></li>
+                        <li><b>2011-2013</b> - <a href="https://www.vistra.com/acquisitions/Trinity">Trinity Corporate Services</a></li>
+                    </ul>
                     <hr>
-                    <h3>Education</h3>
-                        <p>
-                        Received the title of <b>Engineer</b> in the Computer Networks department with specialization in “System and Network Programming”.
+                    <h3 lang="en">Education</h3>
+                    <h3 lang="pl">Edukacja</h3>
+                        <p lang="en">
+                        Received the title of <b>engineer</b> in the Computer Networks department with specialization in “System and Network Programming”.
+                        </p>
+                        <p lang="pl">
+                        Zdobyłem tytuł <b>inżyniera</b> w katerze Sieci Komputerowych na specjalizacji “Programowanie Systemowe".
+i Sieciowe”.
                         </p>
                         <ul>
                             <li><b>2007-2012</b> - <a href="http://www.pja.edu.pl/" title="Polish-Japanese Institute of Information Technology">PJWST</a></li>
@@ -71,8 +113,9 @@
             <div class="col-md-4" id="contact">
                 <div class="column">
                 <div class="contents">
-                    <h3>Contact</h3>
-                    <p>
+                    <h3 lang="en">Contact</h3>
+                    <h3 lang="pl">Kontakt</h3>
+                    <p lang="en">
                         <ul class="list-unstyled">
                             <li id="email">
                                 <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
@@ -97,7 +140,8 @@
                         </ul>
                     </p>
                     <hr>
-                    <h3>Downloads</h3>
+                    <h3 lang="en">Downloads</h3>
+                    <h3 lang="pl">Pliki</h3>
                         <ul class="list-unstyled">
                             <li id="cv-en">
                                 <span class="glyphicon glyphicon-save-file" aria-hidden="true"></span>
@@ -113,7 +157,8 @@
                             </li>
                         </ul>
                     <hr>
-                    <h3>Links</h3>
+                    <h3 lang="en">Links</h3>
+                    <h3 lang="pl">Linki</h3>
                         <ul class="list-unstyled">
                             <li id="linked-in">
                                 <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
