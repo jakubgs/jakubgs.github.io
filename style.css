@@ -1,12 +1,11 @@
 body {
     margin: 0px;
     padding: 0px;
+
     background-color: #353135;
     color: white;
-    font-size: 17px;
-}
 
-body {
+    font-size: 17px;
     padding-top: 2%;
 }
 
@@ -79,8 +78,8 @@ hr {
     background-color: #252125;
 
     border-top: 0.5em solid #3873b3;
-    border-left: 0.5em solid #3873b3;
-    /*border-bottom: 0.5em solid #3873b3;*/
+    /* border-left: 0.5em solid #3873b3; */
+    /* border-bottom: 0.5em solid #3873b3; */
 }
 
 .contents {
