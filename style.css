@@ -54,6 +54,10 @@ hr {
     margin-bottom: 12px;
 }
 
+#github-icon {
+    height: 1em;
+}
+
 .navbar {
     height: auto;
     width; 100%;
