@@ -3,14 +3,7 @@
  ********************************************/
 
 body {
-    margin: 0px;
-    padding: 0px;
-
     background-color: #353135;
-    color: white;
-
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
 }
 
 @media (max-width: 1200px) {
@@ -21,39 +14,30 @@ body {
 }
 
 .navbar {
-    height: auto;
-    width; 100%;
-
-    padding-bottom: 2%;
-    padding-top: 2%;
-    padding-left: 2%;
-
-    margin-top: 2%;
-    margin-bottom: 3%;
-
+    padding: 2em 1em 2em 2em;
+    margin: 1em 1em 1em 1em;
     border-radius: 0px;
 
     background-color: #3873b3;
 }
 
 .col-md-4 {
-    padding-right: 1%;
-    padding-left: 1%;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
-.columns {
-    width: 100%;
-    padding: 1%;
+.row {
+    margin: 0px 0px 0px 0px;
 }
 
 .column {
+    margin: 1em 1em 1em 1em;
     padding: 3% 3% 3% 3%;
-    margin-bottom: 4%;
     height: auto;
 
-    background-color: #252125;
-
     border-top: 0.5em solid #3873b3;
+
+    background-color: #252125;
 }
 
 .footer {
@@ -63,6 +47,12 @@ body {
 /********************************************
  * Text Styling                             *
  ********************************************/
+
+* {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
 
 a {
     color: #3873b3;
@@ -97,10 +87,10 @@ hr {
 
 #photo {
     float: left;
-    height: 10em;
+    height: 11em;
 
-    margin-right: 12px;
-    margin-bottom: 12px;
+    margin-top: 3px;
+    margin-right: 10px;
 }
 
 #github-icon {
