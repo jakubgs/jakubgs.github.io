@@ -51,7 +51,7 @@ body {
 * {
     color: white;
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-size: 1.02em;
 }
 
 a {
@@ -68,9 +68,10 @@ h1 {
     margin-bottom: 4px;
 }
 h3 {
-    font-weight: bold;
     margin-top: 1%;
     margin-bottom: 1%;
+
+    font-weight: bold;
     font-size: 22px;
 }
 h4 {
