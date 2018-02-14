@@ -45,7 +45,7 @@ body {
 }
 
 .shadow {
-    box-shadow: 2px 3px 4px black;
+    box-shadow: 0.2em 0.3em 0.3em black;
 }
 
 /********************************************
