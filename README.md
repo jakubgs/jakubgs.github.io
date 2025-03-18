@@ -9,4 +9,4 @@ This is my personal portfolio site.
 
 # Copyright
 
-© 2020 Jakub Sokołowski
+© 2025 Jakub Sokołowski
